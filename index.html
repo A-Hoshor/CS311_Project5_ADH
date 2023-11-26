@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Application</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Mad Libs By Alyssa</h1><br>
+        </div>
+       
+    <div class="game">
+        <div class="gridItem2">
+            <img src="img/bear.jpg">
+        </div>
+        <div id="inputs" div class="inputs" >
+            <form id="inputs" >
+                <label for="Adjective">Enter an adjective:</label><br>
+                <input type="text" id="adj1" name="adj1"><br>
+
+                <label for="Noun">Enter a noun:</label><br>
+                <input type="text" id="noun1" noun1="noun1"><br>
+
+                <label for="Verb">Enter a past tense verb:</label><br>
+                <input type="text" id="verb1" verbPT1="verb1"><br>
+
+                <label for="Adverb">Enter an adverb:</label><br>
+                <input type="text" id="adv1" adv1="adv1"><br>
+
+                <label for="Adjective">Enter an adjective:</label><br>
+                <input type="text" id="adj2" adj2="adj2"><br>
+
+                <label for="Noun">Enter a noun:</label><br>
+                <input type="text" id="noun2" noun2="noun2"><br>
+
+                <label for="Noun">Enter a noun:</label><br>
+                <input type="text" id="noun3" noun3="noun3"><br>
+
+                <label for="Adjective">Enter an adjective:</label><br>
+                <input type="text" id="adj4" adj4="adj4"><br>
+
+                <label for="Verb">Enter a past tense verb:</label><br>
+                <input type="text" id="verb2" verbPT2="verb2"><br>
+
+                <label for="Adverb">Enter an adverb:</label><br>
+                <input type="text" id="adv2" adv2="adv2"><br>
+
+                <label for="Verb">Enter a past tense verb:</label><br>
+                <input type="text" id="verb3" verbPT3="verb3"><br>
+
+                <label for="Adjective">Enter an adjective:</label><br>
+                <input type="text" id="adj5" adj5="adj5"><br>
+                <button id="button" type="button" onclick="showMadLib()">Show Mad Lib</button>
+            </form>
+          
+        </div>
+        <div id = "outputs" div class="outputs">
+            <form id="outputs">
+                <p> 
+                   Today I went to the zoo. I saw a(n) 
+                    <span id="adj1Out"></span>
+                    <span id="noun1Out"></span>
+                    jumping up and down in its tree.
+                    He <span id="verb1Out"></span>
+                    <span id="adv1Out"></span>
+                    through the large tunnel that led to its
+                    <span id="adj2Out"></span>
+                    <span id ="noun2Out"></span>.
+                    I got some peanuts and passed them through the cage to a gigantic gray 
+                    <span id="noun3Out"></span>
+                    towering above my head. Feeding that animal made me hungry. I went to go get a 
+                    <span id="adj4Out"></span>
+                    scoop of ice cream. It filled my stomach. Afterwards I had to 
+                    <span id="verb2Out"></span>
+                    <span id="adv2Out"></span>
+                    to catch out bus. When I got home I 
+                    <span id="verb3Out"></span>
+                    my mom for a 
+                    <span id="adj5Out"></span>
+                    day at the zoo.
+
+                    
+                </p>
+
+
+              
+                <br>
+                <button id="reset"  onclick="showReset()">Reset</button>
+             
+            </form>
+          
+        </div>
+
+</div>
+ 
+</div>
+<script src="js/properties.js"></script>
+<footer><p>This MadLibs came from:
+    <a href="https://irp-cdn.multiscreensite.com/ec2b0ab8/files/uploaded/Mad%20Libs.pdf">URL</a>
+    </p>
+</footer>
+
+
+</body>
+</html>
